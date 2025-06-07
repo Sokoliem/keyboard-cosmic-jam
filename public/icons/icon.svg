@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF00FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00FFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFF00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" fill="#0a0a0a" rx="64"/>
+  
+  <!-- Keyboard base -->
+  <rect x="64" y="256" width="384" height="192" fill="url(#neonGradient)" rx="16"/>
+  <rect x="72" y="264" width="368" height="176" fill="#1a1a1a" rx="12"/>
+  
+  <!-- Piano keys -->
+  <rect x="88" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="136" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="184" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="232" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="280" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="328" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  <rect x="376" y="280" width="40" height="144" fill="#ffffff" rx="4"/>
+  
+  <!-- Black keys -->
+  <rect x="116" y="280" width="24" height="96" fill="#333333" rx="2"/>
+  <rect x="164" y="280" width="24" height="96" fill="#333333" rx="2"/>
+  <rect x="260" y="280" width="24" height="96" fill="#333333" rx="2"/>
+  <rect x="308" y="280" width="24" height="96" fill="#333333" rx="2"/>
+  <rect x="356" y="280" width="24" height="96" fill="#333333" rx="2"/>
+  
+  <!-- Musical notes -->
+  <circle cx="200" cy="150" r="8" fill="#FF00FF"/>
+  <rect x="208" y="120" width="4" height="48" fill="#FF00FF"/>
+  
+  <circle cx="300" cy="120" r="8" fill="#00FFFF"/>
+  <rect x="308" y="90" width="4" height="48" fill="#00FFFF"/>
+  
+  <!-- Stars -->
+  <polygon points="128,80 132,92 144,92 135,100 139,112 128,105 117,112 121,100 112,92 124,92" fill="#FFFF00"/>
+  <polygon points="384,160 388,172 400,172 391,180 395,192 384,185 373,192 377,180 368,172 380,172" fill="#FFFF00"/>
+</svg>
